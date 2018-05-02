@@ -15,21 +15,37 @@ header{
 	align-items:center;
 }
 
+#img-logo{
+	max-width: 100px;
+	max-height:100px;
+}
+
+#img-logo:hover{
+	transform:rotate(15deg)
+}
+
 #title{
 	font-family:Raleway,sans-serif;
 	font-weight:600;
-	margin-left:2em;
+	margin-left:2rem;
 	margin-right:auto;
 	white-space: nowrap;
 }
 
 aside{
+	font-size:0.9rem;
 	align-items: flex-end;
 	padding:0.5rem;
 }
 
-.address{
-	/*	display:inline-block;*/
+aside:hover{
+	background-color:#46BE13;
+	color:white;
+	/*	font-size:1rem;*/
+	border-radius:25px;
+	/*	transition-duration: 1s;*/
+	transition-timing-function: ease-in;
+	transition-property: all;
 }
 
 a{
@@ -44,11 +60,6 @@ a:hover{
 
 a:visited{
 	text-decoration: none;
-}
-
-#img-logo{
-	max-width: 100px;
-	max-height:100px;
 }
 
 nav{
