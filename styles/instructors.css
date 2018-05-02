@@ -1,6 +1,6 @@
 .row{
 	width:90%;
-	margin-top:1.5rem;
+	margin-top:1rem;
 	text-align: left;
 }
 
@@ -8,6 +8,7 @@
 	content:"";
 	display:block;
 	clear:both;
+	margin-bottom:2rem;
 }
 
 .col_1_of_2{
