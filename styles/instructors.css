@@ -1,0 +1,39 @@
+.row{
+	width:90%;
+	margin-top:1.5rem;
+	text-align: left;
+}
+
+.row:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.col_1_of_2{
+	float:left;
+	width:50%;
+	flex-direction: column;
+}
+
+.img-instructor-pos{
+	text-align: right;
+	margin-right:1rem;
+}
+
+.img-instructor{
+	width:38%;
+	border-radius:10px;
+}
+
+.bio:nth-child(1){
+	font-size: 2rem;
+	font-weight:bold;
+	color:#46BE13;
+}
+
+.bio:nth-child(1):hover{
+	color:#301F00;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
