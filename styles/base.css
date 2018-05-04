@@ -80,13 +80,41 @@ main{
 	margin-top:1rem;
 }
 
-#figure-home{
-	background-color:black;
-	margin:0% 15%;
+figure{
+/*	background-color:black;*/
+}
+
+#slideshow {
+	overflow: hidden;
+	width: 730px;
+	margin: 0 auto;
+	padding-top:20px;
+}
+
+.slide-wrapper {
+	width: 2912px;
+	animation: slide 20s ease infinite;
+}
+
+.slide {
+	float: left;
+	height: 510px;
+	width: 728px;
+}
+
+@-webkit-keyframes slide {
+	20% {margin-left: 0px;}
+	30% {margin-left: -728px;}
+	50% {margin-left: -728px;}
+	60% {margin-left: -1456px;}
+	70% {margin-left: -1456px;}
+	80% {margin-left: -2184px;}
+	90% {margin-left: -2184px;}
 }
 
 .home-image{
-	max-width:75%;
+	max-width:90%;
+	border-radius:10px;
 }
 
 footer{
